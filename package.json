@@ -2,7 +2,7 @@
   "name": "suprsend",
   "version": "1.0.0",
   "description": "inbox integeration",
-  "main": "index.js",
+  
   "type": "module",
   "scripts": {
     "start": "npx parcel ./public/index.html",

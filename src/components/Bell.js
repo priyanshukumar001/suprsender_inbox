@@ -1,6 +1,6 @@
 import SuprSendInbox from '@suprsend/react-inbox';
 import suprsend from "@suprsend/web-sdk";
-import 'react-toastify/dist/ReactToastify.css'
+// import 'react-toastify/dist/ReactToastify.css'
 import subscriberId from '../../utils/subscriber_id.js';
 import { useIdentity } from '../../utils/globalVariables.js';
 import dotenv from 'dotenv';
