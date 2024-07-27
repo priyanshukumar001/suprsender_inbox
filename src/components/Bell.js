@@ -34,12 +34,7 @@ const Bell = () => {
                         badge: { backgroundColor: '#66fcf1', color: '#0b0c10' },
                         header: { container: { backgroundColor: '#1f2833' }, headertext: { color: '#45a29e' }, markAllReadText: { color: 'cyan' } },
                         tabs: { color: 'white', unselectedColor: '#dedede', bottomColor: '#66fcf1', badgColor: '#45a29e', badgeText: '#0b0c10' },
-                        notificationsContainer: {
-                            container: {
-                                border: "none",
-                                scrollbars: 'none'
-                            }
-                        }
+
                     }
                 }
             />
