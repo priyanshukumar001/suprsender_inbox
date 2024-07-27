@@ -1,6 +1,6 @@
 import SuprSendInbox from '@suprsend/react-inbox';
 import suprsend from "@suprsend/web-sdk";
-// import 'react-toastify/dist/ReactToastify.css'
+import 'react-toastify/dist/ReactToastify.css'
 import subscriberId from '../../utils/subscriber_id.js';
 import { useIdentity } from '../../utils/globalVariables.js';
 import dotenv from 'dotenv';
@@ -22,18 +22,17 @@ const Bell = () => {
     return ((id === '') ? (<></>) : (
         <>
             <SuprSendInbox
-                themeType='dark'
                 workspaceKey={`${process.env.SUPRSEND_WORKSPACE_KEY}`}
-                // subscriberId={`${subscriberId}`}
                 subscriberId={`${process.env.SUB_ID}`}
                 distinctId={`${id}`}
-
+                // hideToast={true}
+                themeType='dark'
                 theme={
                     {
                         bell: { color: '#45a29e' },
                         badge: { backgroundColor: '#66fcf1', color: '#0b0c10' },
                         header: { container: { backgroundColor: '#1f2833' }, headertext: { color: '#45a29e' }, markAllReadText: { color: 'cyan' } },
-                        tabs: { color: 'white', unselectedColor: '#dedede', bottomColor: '#66fcf1', badgColor: '#45a29e', badgeText: '#0b0c10' },
+                        tabs: { color: 'white', unselectedColor: '#dedede', bottomColor: '#66fcf1', badgColor: '#45a29e', badgeText: '#0b0c10' }
 
                     }
                 }
