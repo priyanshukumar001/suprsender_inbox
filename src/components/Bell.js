@@ -37,8 +37,6 @@ const Bell = () => {
                         notificationsContainer: {
                             container: {
                                 border: "none",
-                                overflow: "auto",
-                                overflowY: "",
                                 scrollbars: 'none'
                             }
                         }
