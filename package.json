@@ -1,0 +1,33 @@
+{
+  "name": "suprsend",
+  "version": "1.0.0",
+  "description": "inbox integeration",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "npx parcel ./public/index.html",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@suprsend/react-inbox": "^3.2.0",
+    "@suprsend/web-sdk": "^1.3.3",
+    "dotenv": "^16.4.5",
+    "parcel": "^2.12.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.25.1"
+  },
+  "devDependencies": {
+    "buffer": "^6.0.3",
+    "crypto-browserify": "^3.12.0",
+    "events": "^3.3.0",
+    "os-browserify": "^0.3.0",
+    "path-browserify": "^1.0.1",
+    "process": "^0.11.10",
+    "stream-browserify": "^3.0.0",
+    "string_decoder": "^1.3.0",
+    "vm-browserify": "^1.1.2"
+  }
+}
