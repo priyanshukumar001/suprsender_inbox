@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "npx parcel ./public/index.html",
+    "build": "parcel build ./public/index.html",
     "test": "jest"
   },
   "author": "",
